@@ -1,0 +1,32 @@
+@media (max-width:1290px){
+    .container{
+        max-width: 1100px;
+    }
+    .vector{
+        width:85% ;
+    }
+    .map {
+        background-size: cover !important;
+    }
+    .footer .links{
+        justify-content: center;
+        flex-direction: unset;
+    }
+}
+@media (max-width:1100px){
+    .container{
+        max-width: 950px;
+    }
+    .vector{
+        width:75% ;
+    }
+    .footer .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .footer .links{
+        justify-content: unset;
+        flex-direction: column;
+    }
+}
+
